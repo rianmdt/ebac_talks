@@ -1,9 +1,9 @@
 {
   "name": "ebac_talks",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/style.scss src/scripts/index.js",
+    "build" : "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0",
+    "sass": "^1.79.1",
     "sharp": "^0.31.3"
   }
 }
